@@ -1,9 +1,9 @@
 package h1;
 
 public class Zahl {
-	boolean even;
-	boolean small;
-	boolean positive;
+	public boolean even;
+	public boolean small;
+	public boolean positive;
 	
 	int num;
 	
