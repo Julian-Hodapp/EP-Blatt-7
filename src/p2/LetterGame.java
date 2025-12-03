@@ -5,6 +5,23 @@ public class LetterGame {
 	String word = new String("");
 	
 	public void setWord(int[] a) {
-		String[] newLetters;
+		String convertedString = "";
+		
+		for (int i = 0; i < a.length; i++) {
+			char letter = keyString.charAt(a[i] % keyString.length());
+			
+			convertedString = convertedString + letter;
+		}
+		
+		System.out.println(convertedString);
+	}
+	
+	public String toString() {
+		return("a");
+	}
+	
+	//Key constrained
+	public void setArray(String a) {
+		
 	}
 }
