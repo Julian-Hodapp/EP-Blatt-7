@@ -1,11 +1,11 @@
 package h1;
 
 public class Zahl {
-	public boolean even;
-	public boolean small;
-	public boolean positive;
+	public boolean even = false;
+	public boolean small = false;
+	public boolean positive = false;
 	
-	int num;
+	int num = 0;
 	
 	public Zahl(int zahl) {
 		num = zahl;
